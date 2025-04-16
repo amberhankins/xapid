@@ -1,0 +1,42 @@
+Function Name,Description,Header File,Docs Link
+NtCreateMutant,The NtCreateMutant routine creates a mutant object sets the initial state of the mutant to the specified value and opens a handle to the object with the specified desired access.,ntexapi.h,https://ntdoc.m417z.com/ntcreatemutant 
+NtLoadDriver,The NtLoadDriver function loads a driver specified by the DriverServiceName parameter.,ntioapi.h,https://ntdoc.m417z.com/ntloaddriver
+NtCreateThreadEx,Creates a new thread in the specified process.,ntpsapi.h,https://ntdoc.m417z.com/ntcreatethreadex
+NtQueryFullAttributesFile,The NtQueryFullAttributesFile function retrieves network open information for the specified file.,ntioapi.h,https://ntdoc.m417z.com/ntqueryfullattributesfile
+RtlAddVectoredContinueHandler,Registers a vectored continue handler.,ntrtl.h,https://ntdoc.m417z.com/rtladdvectoredcontinuehandler
+NtDuplicateObject,The NtDuplicateObject routine creates a handle that is a duplicate of the specified source handle.,ntobapi.h,https://ntdoc.m417z.com/ntduplicateobject
+NtTerminateProcess,Terminates the specified process.,ntpsapi.h,https://ntdoc.m417z.com/ntterminateprocess
+NtEnumerateKey,Enumerates the subkeys of a registry key.,ntregapi.h,https://ntdoc.m417z.com/ntenumeratekey
+NtCreateUserProcess,Creates a new process and primary thread.,ntpsapi.h,https://ntdoc.m417z.com/ntcreateuserprocess
+NtQueryKey,Queries information about a registry key.,ntregapi.h,https://ntdoc.m417z.com/ntquerykey
+RtlAddVectoredExceptionHandler,Registers a vectored exception handler.,ntrtl.h,https://ntdoc.m417z.com/rtladdvectoredexceptionhandler
+NtCreateKey,Creates a new registry key routine or opens an existing one.,ntregapi.h,https://ntdoc.m417z.com/ntcreatekey
+NtOpenDirectoryObject,Opens an existing directory object.,ntobapi.h,https://ntdoc.m417z.com/ntopendirectoryobject
+NtDeleteKey,Deletes a registry key.,ntregapi.h,https://ntdoc.m417z.com/ntdeletekey
+LdrGetDllHandle,,htldr.h,https://ntdoc.m417z.com/ldrgetdllhandle
+NtEnumerateValueKey,Enumerates the values of a registry key.,ntregapi.h,https://ntdoc.m417z.com/ntenumeratevaluekey
+NtOpenKeyEx,Opens an existing registry key with extended options.,ntregapi.h,https://ntdoc.m417z.com/ntopenkeyex
+NtSetContextThread,Sets the context of the specified thread.,ntpsapi.h,https://ntdoc.m417z.com/ntsetcontextthread
+NtProtectVirtualMemory,Changes the protection on a region of virtual memory.,ntmmapi.h,https://ntdoc.m417z.com/ntprotectvirtualmemory
+NtOpenMutant,The NtOpenMutant routine opens a handle to an existing mutant object.,ntexapi.h,https://ntdoc.m417z.com/ntopenmutant
+RtlCreateUserThread,Creates a new thread in the specified process.,ntrtl.h,https://ntdoc.m417z.com/rtlcreateuserthread
+NtQueryValueKey,Queries the value of a registry key.,ntregapi.h,https://ntdoc.m417z.com/ntqueryvaluekey
+NtResumeThread,Resumes the specified thread.,ntpsapi.h,https://ntdoc.m417z.com/ntresumethread
+NtMapViewOfSection,Maps a view of a section into the virtual address space of a subject process.,ntmmapi.h,https://ntdoc.m417z.com/ntmapviewofsection
+NtSuspendThread,Suspends the specified thread.,ntpsapi.h,https://ntdoc.m417z.com/ntsuspendthread
+LdrLoadDll,,ntldr.h,https://ntdoc.m417z.com/ldrloaddll
+LdrUnloadDll,,ntldr.h,https://ntdoc.m417z.com/ldrunloaddll
+NtUnmapViewOfSection,The NtUnmapViewOfSection routine unmaps a view of a section from the virtual address space of a subject process.,ntmmapi.h,https://ntdoc.m417z.com/ntunmapviewofsection
+NtReadVirtualMemory,Reads virtual memory from a process.,ntmmapi.h,https://ntdoc.m417z.com/ntreadvirtualmemory
+NtSaveKeyEx,Saves the specified registry key to a file with a specified format.,ntregapi.h,https://ntdoc.m417z.com/ntsavekeyex
+NtQueryAttributesFile,The NtQueryAttributesFile function retrieves basic attributes for the specified file.,ntioapi.h,https://ntdoc.m417z.com/ntqueryattributesfile
+NtGetContextThread,Retrieves the context of the specified thread.,ntpsapi.h,https://ntdoc.m417z.com/ntgetcontextthread
+LdrGetProcedureAddress,,ntldr.h,https://ntdoc.m417z.com/ldrgetprocedureaddress
+NtOpenKey,Opens an existing registry key.,ntregapi.h,https://ntdoc.m417z.com/ntopenkey
+NtSetValueKey,Sets the value of a registry key.,ntregapi.h,https://ntdoc.m417z.com/ntsetvaluekey
+NtQueueApcThread,Queues an APC (Asynchronous Procedure Call) to a thread.,ntpsapi.h,https://ntdoc.m417z.com/ntqueueapcthread
+NtDelayExecution,The NtDelayExecution routine suspends the current thread until the specified condition is met.,ntexapi.h,https://ntdoc.m417z.com/ntdelayexecution
+NtDeleteValueKey,Deletes a value from a registry key.,ntregapi.h,https://ntdoc.m417z.com/ntdeletevaluekey
+NtOpenSection,The NtOpenSection routine opens a handle for an existing section object.,ntmmapi.h,https://ntdoc.m417z.com/ntopensection
+NtTerminateThread,Terminates the specified thread.,ntpsapi.h,https://ntdoc.m417z.com/ntterminatethread
+RtlRemoveVectoredExceptionHandler,Removes a vectored exception handler.,ntrtl.h,https://ntdoc.m417z.com/rtlremovevectoredexceptionhandler
